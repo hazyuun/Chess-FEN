@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python 3.9
+    - name: Set up Python 3.7.10
       uses: actions/setup-python@v2
       with:
         python-version: 3.7.10
@@ -22,4 +22,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run
-      run: python src/main.py --predict 1B1B2K1-1B6-5N2-6k1-8-8-8-4nq2.jpeg
+      run: python src/main.py --predict samples/1B1B2K1-1B6-5N2-6k1-8-8-8-4nq2.jpeg
