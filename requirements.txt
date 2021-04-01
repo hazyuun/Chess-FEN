@@ -2,4 +2,4 @@ numpy==1.19.5
 matplotlib==3.2.2
 joblib==1.0.1
 opencv_contrib_python==4.1.2.30
-scikit_learn==0.24.1
+scikit_learn==0.22.2.post1
