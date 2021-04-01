@@ -26,7 +26,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run
       run: python src/main.py --predict 1B1B2K1-1B6-5N2-6k1-8-8-8-4nq2.jpeg
-      
         # stop the build if there are Python syntax errors or undefined names
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
