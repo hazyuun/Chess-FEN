@@ -1,4 +1,4 @@
-# Chess-FEN
+# Chess-FEN [![Python application](https://github.com/hazyuun/Chess-FEN/actions/workflows/python-app.yml/badge.svg)](https://github.com/hazyuun/Chess-FEN/actions/workflows/python-app.yml)
 Predicts Forsyth–Edwards Chess Notation from a chess board image, using an SVC model
 
 ![example](example.png)
